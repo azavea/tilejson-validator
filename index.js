@@ -21,7 +21,7 @@ function validate(str) {
         return false;
     }
 
-    return true;
+    return tilejsonValidateObject.validate(tj);
 }
 
 module.exports.validate = validate;
