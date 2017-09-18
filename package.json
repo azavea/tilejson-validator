@@ -1,0 +1,38 @@
+{
+  "name": "tilejson-validator",
+  "version": "0.1.0",
+  "description": "Standards-based validation for TileJSON",
+  "author": "Azavea",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/azavea/tilejson-validator.git"
+  },
+  "scripts": {
+    "test": "eslint . && tap test/*.js --coverage"
+  },
+  "dependencies": {
+    "jsonlint-lines": "*"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "browserify": "13.1.0",
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.1.0",
+    "glob": "~7.0.5",
+    "tap": "7.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "tilejson",
+    "validator"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  }
+}
