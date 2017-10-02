@@ -8,6 +8,7 @@
     "type": "git",
     "url": "http://github.com/azavea/tilejson-validator.git"
   },
+  "license": "Apache-2.0",
   "scripts": {
     "test": "eslint . && tap test/*.js --coverage"
   },
@@ -34,5 +35,8 @@
   ],
   "engines": {
     "node": ">= 0.10"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
