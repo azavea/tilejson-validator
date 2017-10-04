@@ -1,5 +1,9 @@
 ## 0.1.1
 
+- Fixed travis api key
+
+## 0.1.1
+
 - Added basic TileJSON validation.
 - Fixed travis npm deploy
 
